@@ -34,17 +34,17 @@ public class Bicycle extends Vehicle {
     public String toString() {
         if (kmh+velocity <= 35) {
             return "Bicycle: " + '\n' +
-                    " name =" + name + '\n' +
-                    " id =" + name + '\n' +
-                    " velocity =" + velocity + "km/h " + '\n' +
+                    " name = " + name + '\n' +
+                    " id = " + name + '\n' +
+                    " velocity = " + velocity + "km/h " + '\n' +
                     " acceleration = " + (kmh + velocity) + "km/h " + '\n' +
                     "Velocity accelerated by " + kmh + "km/h"
                     ;
         }
         return "Bicycle: " + '\n' +
-                " name =" + name + '\n' +
-                " id =" + name + '\n' +
-                " velocity =" + velocity + "km/h " + '\n' +
+                " name = " + name + '\n' +
+                " id = " + id + '\n' +
+                " velocity = " + velocity + "km/h " + '\n' +
                 " acceleration = " + 0 + "km/h " + '\n' +
                 "Maximum Speed reached. No acceleration possible.";
     }

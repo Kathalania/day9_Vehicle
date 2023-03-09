@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println(car1);
 
-        Bicycle bike1 = new Bicycle("EBKZ4", "E-Bike", 13, 30);
+        Bicycle bike1 = new Bicycle("EBKZ4", "E-Bike", 13, 35);
 
         System.out.println(bike1);
 
