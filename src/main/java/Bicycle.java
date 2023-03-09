@@ -28,22 +28,7 @@ public class Bicycle extends Vehicle {
         return kmh;
     }
 
-
     private int i = velocity + kmh;
-
-    public String maximumSpeed() {
-        if (i <= 35) {
-            System.out.println("Velocity accelerated by " + kmh + "kmh");
-            return "Bicycle: " + '\n' +
-                    " name =" + name + '\n' +
-                    " id =" + name + '\n' +
-                    " velocity =" + velocity + "km/h " + '\n' +
-                    " acceleration = " + (kmh + velocity) + "km/h "
-                    ;
-        } else {
-            return "Maximum Speed reached. No acceleration possible.";
-        }
-    }
 
     @Override
     public String toString() {
